@@ -1,12 +1,7 @@
-# COMP 551 Assignment 1
-Python implementations for logistic regression and linear discriminant analysis models.
+# Logistic Regression - LDA
+Python implementations for logistic regression and linear discriminant analysis models. Trained and tested on two standard datasets.
 
-### TODO
-- Clean the data (normal distribution 2sigma analysis)
-- Implement k-fold cross validation method [DONE]
-- Finish LDA
-- All of task 3
-- All of the report
+To run, call `python main.py`. It will take some time for everything to run.
 
 #### Final Weights
 For 10,000 iterations of gradient descent training for logistic regression
@@ -47,7 +42,7 @@ Best accuracies:
 Consider decreasing the learning rate over time (simulated annealing)
 
 STATS:
-- Do precision, recall, sensitivity, etc. 
+- Precision, recall, sensitivity, etc. 
 - Show through the p values that none of them are really normal distributions
 
 Remove Outliers
